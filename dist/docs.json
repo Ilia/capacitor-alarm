@@ -459,16 +459,16 @@
         {
           "name": "hour",
           "tags": [],
-          "docs": "Hour of day in 24h format (0-23)",
+          "docs": "Hour of day in 24h format (0-23). May be absent for alarms created outside this plugin.",
           "complexTypes": [],
-          "type": "number"
+          "type": "number | undefined"
         },
         {
           "name": "minute",
           "tags": [],
-          "docs": "Minute of hour (0-59)",
+          "docs": "Minute of hour (0-59). May be absent for alarms created outside this plugin.",
           "complexTypes": [],
-          "type": "number"
+          "type": "number | undefined"
         },
         {
           "name": "label",
